@@ -13,7 +13,8 @@ import Stack from '@mui/material/Stack'
 import { styled } from '@mui/material/styles'
 import AccountBalanceTwoToneIcon from '@mui/icons-material/AccountBalanceTwoTone'
 import RecommendTwoToneIcon from '@mui/icons-material/RecommendTwoTone'
-
+import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft'
+import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight'
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
@@ -44,11 +45,17 @@ export default function ShowCredit() {
         <h2 className="">
           {' '}
           FACEBOOK :{' '}
+          <a className=" text-danger ">
+            <KeyboardDoubleArrowRightIcon />
+          </a>
           <a
             href="https://www.facebook.com/akeza.hackrockgark/"
             className=" text-primary"
           >
             Jasdakorn Ake
+          </a>
+          <a className=" text-danger ">
+            <KeyboardDoubleArrowLeftIcon />
           </a>
         </h2>
 

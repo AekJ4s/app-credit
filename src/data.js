@@ -13,9 +13,52 @@ import TH01205FB8D15D from './img/express/TH01205FB8D15D.jpg'
 import TH41085FBBK71A from './img/express/TH41085FBBK71A.jpg'
 import TH01315FB9UC5A1 from './img/express/TH01315FB9UC5A1.jpg'
 import TH01335FB7K9F from './img/express/TH01335FBB7K9F.jpg'
+import slip1 from './img/express/ภูรีตา.jpg'
+import TH01185FEVV39B0 from './img/express/TH01185FEVV39B0.jpg'
+import TH03065FEW820C0 from './img/express/TH03065FEW820C0.jpg'
 import { format } from 'date-fns'
 const formattedDate = format(new Date(), 'dd MMMM yyyy', { locale: thLocale })
 export const CreditDetail = [
+  {
+    from: {
+      Name: 'Pureeta Homsakmongkol',
+      Express: 'รับมือ',
+      TrackID: '-',
+      ImageExpress: <img src={slip1} width="100" height="50" />,
+      Product: 'วอลเปเปอร์ 3D',
+      Cost: 100,
+      Date: format(new Date(2024, 3, 5), 'dd / MMMM / yyyy', {
+        locale: thLocale,
+      }),
+    },
+  },
+  {
+    from: {
+      Name: 'ToWyo INtah',
+      Express: 'Flash',
+      TrackID: 'TH01185FEVV39B0',
+      ImageExpress: <img src={TH01185FEVV39B0} width="100" height="50" />,
+      Product: 'รองเท้าบาส',
+      Cost: 550,
+      Date: format(new Date(2024, 3, 2), 'dd / MMMM / yyyy', {
+        locale: thLocale,
+      }),
+    },
+  },
+  {
+    from: {
+      Name: 'Phattarabadee Pun',
+      Express: 'Flash',
+      TrackID: 'TH03065FEW820C0',
+      ImageExpress: <img src={TH03065FEW820C0} width="100" height="50" />,
+      Product: 'มูซีค',
+      Cost: 250,
+      Date: format(new Date(2024, 3, 2), 'dd / MMMM / yyyy', {
+        locale: thLocale,
+      }),
+    },
+  },
+
   {
     from: {
       Name: 'Lifeii Chen',
@@ -47,7 +90,7 @@ export const CreditDetail = [
       Name: 'Thanadate Cheetos',
       Express: 'รับมือ',
       TrackID: '-',
-      ImageExpress: <img src={imgTakebyHand} width="100" height="50" />,
+      ImageExpress: <img src={img3} width="100" height="50" />,
       Product: ' โมเดล , ปลั๊กไฟ , ไฟLED',
       Cost: 500,
       Date: format(new Date(2024, 3, 1), 'dd / MMMM / yyyy', {
@@ -60,35 +103,9 @@ export const CreditDetail = [
       Name: 'ภัควรินทร์ วงศ์บวรโชติ',
       Express: 'รับมือ',
       TrackID: '-',
-      ImageExpress: <img src={imgTakebyHand} width="100" height="50" />,
+      ImageExpress: <img src={imgDefuault} width="100" height="50" />,
       Product: 'ปลั๊กไฟมือสอง',
       Cost: 500,
-      Date: format(new Date(2024, 3, 1), 'dd / MMMM / yyyy', {
-        locale: thLocale,
-      }),
-    },
-  },
-  {
-    from: {
-      Name: 'ToWyo INtah',
-      Express: 'กำลังรอส่ง',
-      TrackID: '-',
-      ImageExpress: <img src={imgPacking} width="100" height="50" />,
-      Product: 'รองเท้าบาส',
-      Cost: 550,
-      Date: format(new Date(2024, 3, 1), 'dd / MMMM / yyyy', {
-        locale: thLocale,
-      }),
-    },
-  },
-  {
-    from: {
-      Name: 'Phattarabadee Pun',
-      Express: 'กำลังรอส่ง',
-      TrackID: '-',
-      ImageExpress: <img src={imgPacking} width="100" height="50" />,
-      Product: 'มูซีค',
-      Cost: 250,
       Date: format(new Date(2024, 3, 1), 'dd / MMMM / yyyy', {
         locale: thLocale,
       }),
@@ -191,20 +208,7 @@ export const CreditDetail = [
       Name: 'Tharapon Watana-akkara',
       Express: 'รับมือ',
       TrackID: '-',
-      ImageExpress: <img src={imgTakebyHand} width="100" height="50" />,
-      Product: 'รองเท้าKEEN , ฟุตซอล',
-      Cost: 1200,
-      Date: format(new Date(2024, 3, 1), 'dd / MMMM / yyyy', {
-        locale: thLocale,
-      }),
-    },
-  },
-  {
-    from: {
-      Name: 'TEST',
-      Express: 'รับมือ',
-      TrackID: '-',
-      ImageExpress: <img src={imgTakebyHand} width="100" height="50" />,
+      ImageExpress: <img src={imgDefuault} width="100" height="50" />,
       Product: 'รองเท้าKEEN , ฟุตซอล',
       Cost: 1200,
       Date: format(new Date(2024, 3, 1), 'dd / MMMM / yyyy', {
